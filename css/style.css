@@ -232,7 +232,7 @@ section_2 {
     font-weight: 500;
     line-height: 120%;
     text-transform: uppercase;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 .block_rows {
@@ -317,7 +317,8 @@ main {
     background: var(--1, #a78383c4);
 }
 
-.row_about_img img {
+.row_about_img img,
+.row_about_img_mobile img {
     max-width: 100%;
     width: 100%;
 }
