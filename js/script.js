@@ -2,7 +2,7 @@ var scrollToTopBtn = document.getElementById("scroll-to-top-btn");
 
 function toggleScrollButton() {
     var currentPosition = document.documentElement.scrollTop || document.body.scrollTop;
-    if (currentPosition > 500) {
+    if (currentPosition > 0) {
         scrollToTopBtn.style.display = "block";
     } else {
         scrollToTopBtn.style.display = "none";
@@ -17,4 +17,5 @@ scrollToTopBtn.addEventListener("click", function() {
     });
 });
 
-
+// Проверка положения прокрутки страницы при загрузке
+window.addEventListener("load", toggleScrollButton);
