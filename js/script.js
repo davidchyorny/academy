@@ -58,15 +58,15 @@ animateOnScroll();
 
 
 
-// Ожидаем события загрузки страницы
-window.addEventListener('load', function() {
-    // Получаем элемент <body>
-    var body = document.querySelector('body');
-    // Добавляем класс "loaded" к <body> после небольшой задержки
-    setTimeout(function() {
-      body.classList.add('loaded');
-    }, 100); // Здесь можно указать время задержки в миллисекундах
-  });
+// // Ожидаем события загрузки страницы
+// window.addEventListener('load', function() {
+//     // Получаем элемент <body>
+//     var body = document.querySelector('body');
+//     // Добавляем класс "loaded" к <body> после небольшой задержки
+//     setTimeout(function() {
+//       body.classList.add('loaded');
+//     }, 100); // Здесь можно указать время задержки в миллисекундах
+//   });
   
 
 
