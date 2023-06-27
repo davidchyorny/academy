@@ -1,0 +1,72 @@
+@import url(./reset/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
+
+
+html,
+body {
+    font-family: Raleway;
+    background-color: #F8F8F8;
+    box-sizing: border-box;
+}
+
+.professions_img {
+    position: relative;
+    text-align: center;
+}
+
+.professions_img img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.professions_img_title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-size: 48px;
+    font-family: Raleway;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.main .professions_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.professions_title {
+    max-width: 770px;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+
+.professions_p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 571px;
+    width: 100%;
+    color: #000;
+    font-size: 22px;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: 140%;
+}
