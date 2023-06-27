@@ -29,6 +29,10 @@
 
 @media (max-width: 768px) {
 
+        .rows_section_1 img {
+        height: 577px;
+    }
+
 
 
     .info_addr a,
@@ -137,6 +141,10 @@
 
 
 @media (max-width:580px) {
+
+        .rows_section_1 img {
+        height: 550px;
+    }
 
     .row_title {
         font-size: 40px;
