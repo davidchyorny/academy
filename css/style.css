@@ -364,6 +364,9 @@ section_2 {
 
 
 /*  */
+.rows_information_block {
+    background-color: #fff;
+}
 
 .rows_information {
     padding: 0 0 50px;
