@@ -343,7 +343,7 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap
-        gap: 0px;
+        gap: 0;
     }
 
     .block_information_important_row {
