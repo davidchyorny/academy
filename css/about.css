@@ -49,6 +49,11 @@ body {
     line-height: 140%;
 }
 
+.row_about_text {
+  text-align: justify;
+}
+
+
 .rows_about_block {
     display: flex;
     justify-content: center;
